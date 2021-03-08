@@ -15,7 +15,14 @@ and indicate its relationship with the YML's book between brackets (for codes fo
 
 - If the book is not in the corpus, you can use the author and title instead of the URI (put them between square brackets, e.g., `[Porphyry, Isagoge]`).
 
-- Use semi-colons to separate related books.
+- Use semi-colons to separate related books, e.g.:
+
+  ```
+  00#BOOK#URI######: 0625AnonComp.Juz
+  ...
+  40#BOOK#RELATED##: 0607IbnTabarzad (COMP.juz); 
+      0604SittKataba (COMP.juz)
+  ```
 
 - In order to make updating book relations as easy as possible, we list relationships only on book-to-book basis,
 and only in the yml file of the most recent book of each pair. 
@@ -59,6 +66,10 @@ and only in the yml file of the most recent book of each pair.
   A script will assemble these links and collate the full chain of transmission.
   
 - if a book relation falls into more than one category, add more than one category between the brackets, separated by commas.
+
+  E.g., `40#BOOK#RELATED#: 0379MuhammadRabci.TarikhMawlidCulama (CONT.dhayl, ABR.mukhtasar)`
+  
+- 
 
 ## List of the codes for types of relations between books/authors:
 The main categories are in all-caps, subcategories in lower case. Subcategories can be used to represent the Arabic terminology used for the type of book relations.
