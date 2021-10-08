@@ -167,7 +167,26 @@ For AUTHOR YAML:
 - all relationships are described in this field; tags describe the relationship of the main author to other people. In the example above, taken from `0748Dhahabi`, the record says `0748Dhahabi@teacher_of@0771Subki` (the first part of the triple is dropped, as it is derived from the record itself).
 - the same format might be efficient for BOOK YML.
 
+## Example of AUTHOR Template
 
+00#AUTH#URI######: XXXShuhra (autoupdated)
+10#AUTH#ISM####AR: Fulān
+10#AUTH#NASAB##AR: b. Fulān b. Fulān b. Fulān b. Fulān
+10#AUTH#KUNYA##AR: Abū Fulān, Abū Fulānaŧ
+10#AUTH#LAQAB##AR: Fulān al-dīn, Fulān al-dawlaŧ
+10#AUTH#NISBA##AR: al-Fulānī, al-Fāʿil, al-Fulānī, al-Mufaʿʿil
+10#AUTH#SHUHRA#AR: Ibn Fulān al-Fulānī
+10#AUTH#DESCRIPT#: Essentially, for nisbaŧs, but those that are not given
+  in the sources in their Arabic forms (like poet, historian, biographer, etc.)
+20#AUTH#GEOGRAPH#: born@AlthurayyaURI, died@AlthurayyaURI, visitied@AlthurayyaURI, resided@AlthurayyaURI
+30#AUTH#DATES##AH: born@YEAR_MON_DA, died@YEAR_MON_DA (X+ for unknown)
+40#AUTH#RELATED##: relation_type@AUTH_URI, comma separated
+80#AUTH#BIBLIO###: src@id, src@id, src@id, src@id, src@id
+90#AUTH#COMMENT##: a free running comment here; you can add
+  as many lines as you see fit; the main goal of this comment
+  section is to have a place to record valuable information,
+  which is difficult to formalize into the above given categories.
+99#AUTH#RESTATUS#: not finished
 
 
 
