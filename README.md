@@ -158,7 +158,14 @@ Subcategories:
 * TRANSM.riwaya
 
 
+# ADDENDUM: Suggestion for update (MGR)
 
+For AUTHOR YAML:
+
+`40#AUTH#RELATED##: teacher_of@0771Subki`
+
+- all relationships are described in this field; tags describe the relationship of the main author to other people. In the example above, taken from `0748Dhahabi`, the record says `0748Dhahabi@teacher_of@0771Subki` (the first part of the triple is dropped, as it is derived from the record itself).
+- the same format might be efficient for BOOK YML.
 
 
 
