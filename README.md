@@ -169,6 +169,7 @@ For AUTHOR YAML:
 
 ## Example of AUTHOR Template
 
+```
 00#AUTH#URI######: XXXShuhra (autoupdated)
 10#AUTH#ISM####AR: Fulān
 10#AUTH#NASAB##AR: b. Fulān b. Fulān b. Fulān b. Fulān
@@ -187,7 +188,7 @@ For AUTHOR YAML:
   section is to have a place to record valuable information,
   which is difficult to formalize into the above given categories.
 99#AUTH#RESTATUS#: not finished
-
+```
 
 
 
