@@ -189,6 +189,29 @@ For AUTHOR YAML:
   which is difficult to formalize into the above given categories.
 99#AUTH#RESTATUS#: not finished
 ```
+## Example of BOOK template
 
+**NB:** Perhaps, fields MSS, EDITIONS, TRANSLAT, STUDIES, LINKS can be merged in the same manner as well?
+
+```
+00#BOOK#URI######: XXXShuhra.IsmKitab (autoupdated)
+10#BOOK#TITLEA#AR: Kitāb al-Muʾallif
+10#BOOK#TITLEB#AR: Risālaŧ al-Muʾallif
+10#BOOK#GENRES###: src@keyword, src@keyword, src@keyword
+20#BOOK#GEOGRAPH#: written@AlthurayyaURI, finished@AlthurayyaURI, comma separated
+30#BOOK#DATES##AH: written@YEAR_MON_DA, finished@YEAR_MON_DA (X+ for unknown)
+50#BOOK#RELATED##: relationship@BookURI
+80#BOOK#MSS######: permalink, permalink, permalink
+80#BOOK#EDITIONS#: permalink, permalink, permalink
+80#BOOK#TRANSLAT#: permalink, permalink, permalink
+80#BOOK#STUDIES##: permalink, permalink, permalink
+80#BOOK#LINKS####: permalink, permalink, permalink
+90#BOOK#COMMENT##: a free running comment here; you can add
+  as many lines as you see fit; the main goal of this comment
+  section is to have a place to record valuable information,
+  which is difficult to formalize into the above given categories.
+99#BOOK#TITLE####: Title of the work for book/website (most commonly used title)
+99#BOOK#RESTATUS#: not finished
+```
 
 
